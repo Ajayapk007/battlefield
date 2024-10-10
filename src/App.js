@@ -2,8 +2,10 @@ import './App.css';
 
 function App() {
   return (
+
+    // yeh pr redux stroe and routes hoge page routes
     <div className="App">
-      Battlefield
+      <body />
     </div>
   );
 }
