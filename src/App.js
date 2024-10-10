@@ -1,12 +1,13 @@
 import './App.css';
+import { Provider } from 'react-redux';
+import Body from './components/Body';
 
 function App() {
   return (
-
     // yeh pr redux stroe and routes hoge page routes
-    <div className="App">
-      <body />
-    </div>
+    <Provider store={appStore} >
+        <Body />
+    </Provider>
   );
 }
 
