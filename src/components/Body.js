@@ -6,7 +6,13 @@ const Body = () => {
   return (
     <div>
         <Header />
-
+          <div> afddakfjakfj</div>
+          <div> afddakfjakfj</div>
+          <div> afddakfjakfj</div>
+          <div> afddakfjakfj</div>
+          <div> afddakfjakfj</div>
+          <div> afddakfjakfj</div>
+          <div> afddakfjakfj</div>
         <Footer />  
     </div>
   );
