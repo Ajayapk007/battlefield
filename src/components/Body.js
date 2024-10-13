@@ -1,12 +1,13 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import HeroContainer from "./MainContainer";
 
 const Body = () => {
 
   return (
-    <div>
+    <div className=" ">
         <Header />
-         
+        <HeroContainer />
         <Footer />  
     </div>
   );

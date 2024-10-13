@@ -1,4 +1,4 @@
-import { FACEBOOKICONS, INSTAGRAMICON, YOUTUBE } from "../utils/icons";
+import { BATTELFIELDICON, FACEBOOKICONS, INSTAGRAMICON, TELEGRAMICON, YOUTUBE } from "../utils/icons";
 
     
 const Footer = () => {
@@ -10,6 +10,8 @@ const Footer = () => {
               <span>{FACEBOOKICONS}</span>
               <span>{INSTAGRAMICON}</span>
               <span>{YOUTUBE}</span>
+              <span>{TELEGRAMICON}</span>
+              <span>{BATTELFIELDICON}</span>
             </div>
             <div>Battle Field Logo </div>
             <div className="foote Links">
