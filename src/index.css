@@ -10,4 +10,6 @@
   .sidebar::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Opera */
   }
-  
+  .card1{
+    background-image: url("./utils/imgs/card01.jpg");
+  }

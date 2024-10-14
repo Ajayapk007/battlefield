@@ -5,10 +5,10 @@ import HeroContainer from "./MainContainer";
 const Body = () => {
 
   return (
-    <div className=" ">
+    <div className=" h-[calc(100%-1.5rem)]" >
         <Header />
         <HeroContainer />
-        <Footer />  
+        {/* <Footer />   */}
     </div>
   );
 };

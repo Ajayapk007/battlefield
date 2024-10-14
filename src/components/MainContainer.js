@@ -1,13 +1,12 @@
-import { BG_URL } from "../utils/constant";
+import HeroContainer from "./HeroContainer";
 import SideBar from "./SideBar";
 const MainContainer = () => {
 
     return (
-      <div className="flex h-[100%] relative">
+      <div className="flex h-full relative bg-black">
         <SideBar />
-        <section className=" w-full mr-0">
-            <img src={BG_URL} alt="BG" />
-        </section>
+        
+        <HeroContainer />
       </div>
     );
   };
